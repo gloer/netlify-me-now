@@ -1,9 +1,10 @@
 <script>
-	export let name;
+	let name = "Gløer";
 </script>
 
 <main>
 	<h1>Hello {name}!!!!!!!!</h1>
+	<input bind:value={name}>
 	<p>Visit the <a href="https://svelte.dev/tutorial">Svelte tutorial</a> to learn how to build Svelte apps.</p>
 </main>
 
